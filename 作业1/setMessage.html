@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+table, th, td {
+	border: 3px solid;
+	border-color: transparent;
+}
+
+.nav ul li {
+	float: left;
+	list-style: none;
+	display: inline;
+	padding: 0px 14px;
+	   
+}
+
+a:hover {
+	color: #FF00FF;
+}
+</style>
+<meta charset="UTF-8">
+<title>设置基本资料</title>
+</head>
+
+<body style="background: url(image/123.jpg); background-size: cover">
+<form action="person_message.html" method="post">
+	<table align="center" width="70%">
+		<tr>
+			<td rowspan="2" width="15%"><img src="image/photo.jpg"
+				width="120px" height="120px" /></td>
+			<td align="left">
+				<p>
+					<span style="color: blue; font-size: 30px">空空大师</span>的个人博客
+				</p>
+			</td>
+		<tr>
+			<td align="left">
+				<div class="nav">
+					<ul>
+						<li><a href="home_page.html"><font size="5" face="arial" >主页</font></a></li>
+						<li>园子</li>
+						<li>消息</li>
+						<li>个人资料</li>
+						<li>博问主页</li>
+						<li>随便看看</li>
+					</ul>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<table width="70%" align="center" border="0">
+		<tr>
+			<td bgcolor="#DDF" width="100%" colspan="3">设置</td>
+		</tr>
+		<tr bgcolor="white">
+			<td width="20%" rowspan="2" style="position: absolute; top: 5cm">
+				<ul>
+					<div style="color: #66A">
+						<li>基本资料</li>
+						<li>上传头像</li>
+						<li>账户设置</li>
+						<li>个人信息</li>
+						<li>联系方式</li>
+						<li>博客设置</li>
+					</div>
+				</ul>
+			</td>
+			<td width="80%">基本资料 <span style="font-size: 13px; color: #55A">预览
+
+			</span> <br>
+				<hr style="background-color: #55F; height: 1px;">
+				<table style="border-collapse: separate; border-spacing: 17px;">
+					<tr>
+						<td>博客名</td>
+						<td><input type="text" value="空空大师"></td>
+					</tr>
+					<tr>
+						<td>性别</td>
+						<td><input type="radio" name="sex" value="男" />男 <image
+								src="image\Male.gif"> <input type="radio" name="sex"
+								value="女" checked />女<image src="image\Female.gif"></td>
+					</tr>
+					<tr>
+						<td>生日</td>
+						<td><select name="birth_type">
+								<option value="" selected>农历</option>
+								<option value="" selected>阳历</option>
+							</select>
+								<select name="birth_year">
+									<option>2018</option> 
+									<option>2017</option>
+									<option>2016</option>
+									</select>年
+								<select name="birth_month">
+									<option>一</option>
+									<option>二</option>
+									<option>三</option>
+							</select>月
+								<select name="birth_day">
+									<option>1</option>
+									<option>2</option>
+									<option>3</option>
+							</select>日 </td>
+					</tr>
+					<tr>
+						<td>姓名</td>
+						<td><input type="text" value="王莉"></td>
+					</tr>
+					<tr>
+						<td>学校</td>
+						<td><input type="text" value="石家庄铁道大学"></td>
+					</tr>
+					<tr>
+						<td>学院</td>
+						<td><input type="text" value="信息科学与技术院"></td>
+					</tr>
+					<tr>
+						<td>现居地</td>
+						<td><input type="text" value="石家庄"></td>
+					</tr>
+					<tr>
+						<td>联系电话</td>
+						<td><input type="text" value=""></td>
+					</tr>
+					<tr>
+						<td>婚姻情况</td>
+						<td><input type="text" value=""></td>
+					</tr>
+					<tr>
+						<td>血型</td>
+						<td><input type="text" value=""></td>
+					</tr>
+					<tr>
+						<td>详细地址</td>
+						<td><input type="text" value=""></td>
+					</tr>
+                    <tr>
+				<td></td>
+				<td><input type="submit" style="background:#AAF;color:red;width:2cm;height:1cm;" value="保存"></td>
+				</tr>
+
+				</table>
+			</td>
+		</tr>
+	</table>
+
+
+</form>
+</body>
+</html>
